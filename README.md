@@ -14,9 +14,9 @@
 #Master node - 2GB, 2 CPU - k8sMaster
 #2 x worker nodes - 1GB, 1 CPU - k8sWorker, k8sWorker2
 
-# Installing starting and enabling SSH daemon
-# In case that ssh is not installed run following commands
-# It should be installed and enabled on VM's, if it's installed or you prefer to work directly on VM terminal this step can be skipped.
+#Installing starting and enabling SSH daemon
+#In case that ssh is not installed run following commands
+#It should be installed and enabled on VM's, if it's installed or you prefer to work directly on VM terminal this step can be skipped.
 'sudo apt update'
 'sudo apt install ssh'
 'sudo systemctl start sshd'
@@ -52,7 +52,7 @@
 'sudo apt install curl'
 
 
-## Configuring containerd as container runtime for Kubernetes
+##Configuring containerd as container runtime for Kubernetes
 
 #First load two modules in the current running environment and configure them to load on boot
 
